@@ -18,6 +18,8 @@
   David Sanguinetti Olivares
   
   ![image](https://user-images.githubusercontent.com/88542346/141598802-713d1951-4672-479b-a7ca-d8f9c667cdd1.png)
+  *La entrega se pudo realizar en su totalidad, mostrando en rojo suave la zona en donde vivo, y en gris las zonas vecinas directas.
+   Se colorearon los tipos de caminos "highway" según como se indicó en el enunciado. Se aplicó el comando geopandas.clip() pero aún así nunca arrojó el gráfico con los ejes    cortados en la zona de interés.
 
 
  
