@@ -29,6 +29,14 @@ Aníbal Rodríguez Molina
 
 ![image](https://user-images.githubusercontent.com/88512479/141602007-7d9e6edd-19ec-49ca-8057-d0819896cd71.png)
 
+-
+-
+-
+-
+Matias Etcheverry Fuentealba
+
+![image](https://github.com/meetcheverry/MCOC2021-P3-Grupo-07/blob/main/Figure%202021-11-12%20231824.png)
+
 
 
  
