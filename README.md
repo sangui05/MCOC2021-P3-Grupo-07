@@ -51,10 +51,13 @@ Matias Etcheverry Fuentealba
 
  *ANALISIS DEL CODIGO*
  ![image](https://user-images.githubusercontent.com/88542346/142121962-7d777d7a-cc0d-482a-94cc-f9b6b1f5e85c.png)
-  Primero se definnieron nodos y arcos
+ 
+  Primero se definieron nodos y arcos
   
   ![image](https://user-images.githubusercontent.com/88542346/142122798-da6fa2bd-e490-439a-86c9-196995147229.png)
+  
   Primero es necesario tener una copia de la matriz para su comparación(demanda)
+  
   Luego en las siguientes  estas lineas se divide la demanda de bloques de un 10% y el incremento del 0,1% en cada una de ellas, al encontrar la satisfación con un flujo mejor, actualzia la variable y la deja enla matriz.
   
   Respecto al punto anterior se encontraron discrepancias en el gráfico con la solución expresada, posiblementes a acotamientos del gráfico o falla en la comprobación de iteraciones
