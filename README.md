@@ -76,7 +76,8 @@ Matias Etcheverry Fuentealba
 
 Grafo :
     
-    ![image](https://user-images.githubusercontent.com/88542346/142703320-262aebf7-f969-429a-851a-de80cf51405b.png)
+   ![image](https://user-images.githubusercontent.com/88542346/142703356-36e8095e-00ee-45e4-877d-0add0c34284a.png)
+
 
 
 
