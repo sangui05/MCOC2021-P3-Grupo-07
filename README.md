@@ -74,22 +74,43 @@ Matias Etcheverry Fuentealba
 
 # ENTREGA 5
 
-Grafo :
-    
-   ![image](https://user-images.githubusercontent.com/88542346/142703356-36e8095e-00ee-45e4-877d-0add0c34284a.png)
-
-
-
-
 
 ¿Como selecciono las zonas a incluir?
 
 
+- 1) Los zonas las seleccionamos segun los siguientes criterios:
 
-Los zonas las seleccionamos segun los siguientes criterios:
+Primero tratamos de hacer una función en Python la cual recorriera la lista de origenes y destinos y poder ir seleccionando cuales nos servian con respecto a algunos criterios, pero no lo pudimos completar de manera correcta ya que nos tiraba error.
 
--  Primero tratamos de hacer una función en Python la cual recorriera la lista de origenes y destinos y poder ir seleccionando cuales nos servian con respecto a algunos criterios, pero no lo pudimos completar de manera correcta ya que nos tiraba error. Es por esto que decidimos hacerlo de una forma segura pero muy larga, ir viendo uno por uno en la pagina http://datos.cedeus.cl/layers/geonode:eod2012_utm19s, que las zonas (Origen y Destino) tengan setido que pasen por AVO (Americo Vespucio Oriente). Por lo que fue un arduo trabajo viendo uno por uno los casi 3 mil datos de origen destino, para ir eliminando las zonas las cuales no tenian sentido que pasen por AVO. 
+![image](https://user-images.githubusercontent.com/88512479/142702450-c557bf4e-cdf0-46fc-8281-f2eb55619f5b.png)
 
-- También intentamos implementar un ciclo for para recorrer los arcos (Edges) y retirar de la Matriz OD cada par origen-destino que haciendo la ruta mínima pasara por edges con "name" "Americo Vespucio Oriente" or "Avenida Ossa" ,pero debido a un errores de lectura en la lista en la función G.edges_remove_from() , optamos por trabajar la matriz dictada por el primer método antes nombrado.
-- ![image](https://user-images.githubusercontent.com/88542346/142702598-3d21652e-2371-4362-bebb-bc3737bc4d4f.png)
 
+Es por esto que decidimos hacerlo de una forma segura pero muy larga, ir viendo uno por uno en la pagina http://datos.cedeus.cl/layers/geonode:eod2012_utm19s, que las zonas (Origen y Destino) tengan setido que pasen por AVO (Americo Vespucio Oriente). Por lo que fue un arduo trabajo viendo uno por uno los casi 3 mil datos de origen destino, para ir eliminando las zonas las cuales no tenian sentido que pasen por AVO. 
+
+Por lo mismo, obtuvimos muchos pares Origen-Destino ya que no filtramos de a cuerdo a la cantidad de viajes. Por eso mismo quedamos con muchos pares. 
+
+
+- 2) ¿Cuantas zonas se seleccionaron?
+
+Al haber sido de una seleccion mas vista uno por uno, decidimos hacerlo lo mas exacto posible, considerano igual los pares Origen-Destino que tengan pocos viajes de vehiculos de igual manera. Es por esto que utilizamos (1000) viajes. 
+
+
+
+
+3) ¿Cuantos viajes debera asignar?
+
+Se deberan asignar 153542 viajes. (Falta la sumatoria de Matias)
+Esto se calculo haciendo una sumatoria de los viajes que seleccionamos. 
+
+
+
+4) ¿Cuales son los pares OD que espera Ud. que generen mayor flujo en AVO?
+
+Estos pares son los que tienen mayor flujo, nosotros tenemos mdemaciados, algunos de ejemplo son: [[373,11], [359,16], etc
+
+Generalmente son las con mayor flujo y que tiene mucho sentido que pase por AVO, ya que a veces puede haber una zona que esten lejos de AVO y que tenga un flujo muy grande de viajes, por lo que solo un porcentaje pase por AVO. Esto fue considerado por nosotros. 
+
+
+
+
+- 
