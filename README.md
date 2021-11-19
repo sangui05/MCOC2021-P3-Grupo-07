@@ -74,12 +74,20 @@ Matias Etcheverry Fuentealba
 
 # ENTREGA 5
 
+Grafo :
+
+![image](https://user-images.githubusercontent.com/88542346/142702631-7aeb1e4c-9abb-4582-b147-f0620ad40eaa.png)
+
+
 
 ¿Como selecciono las zonas a incluir?
+
 
 
 Los zonas las seleccionamos segun los siguientes criterios:
 
 -  Primero tratamos de hacer una función en Python la cual recorriera la lista de origenes y destinos y poder ir seleccionando cuales nos servian con respecto a algunos criterios, pero no lo pudimos completar de manera correcta ya que nos tiraba error. Es por esto que decidimos hacerlo de una forma segura pero muy larga, ir viendo uno por uno en la pagina http://datos.cedeus.cl/layers/geonode:eod2012_utm19s, que las zonas (Origen y Destino) tengan setido que pasen por AVO (Americo Vespucio Oriente). Por lo que fue un arduo trabajo viendo uno por uno los casi 3 mil datos de origen destino, para ir eliminando las zonas las cuales no tenian sentido que pasen por AVO. 
 
-- 
+- También intentamos implementar un ciclo for para recorrer los arcos (Edges) y retirar de la Matriz OD cada par origen-destino que haciendo la ruta mínima pasara por edges con "name" "Americo Vespucio Oriente" or "Avenida Ossa"
+- ![image](https://user-images.githubusercontent.com/88542346/142702598-3d21652e-2371-4362-bebb-bc3737bc4d4f.png)
+
