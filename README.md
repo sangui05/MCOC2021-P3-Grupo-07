@@ -78,7 +78,7 @@ Matias Etcheverry Fuentealba
 ¿Como selecciono las zonas a incluir?
 
 
-- 1) Los zonas las seleccionamos segun los siguientes criterios:
+1) Los zonas las seleccionamos segun los siguientes criterios:
 
 Primero tratamos de hacer una función en Python la cual recorriera la lista de origenes y destinos y poder ir seleccionando cuales nos servian con respecto a algunos criterios, pero no lo pudimos completar de manera correcta ya que nos tiraba error.
 
@@ -90,9 +90,9 @@ Es por esto que decidimos hacerlo de una forma segura pero muy larga, ir viendo 
 Por lo mismo, obtuvimos muchos pares Origen-Destino ya que no filtramos de a cuerdo a la cantidad de viajes. Por eso mismo quedamos con muchos pares. 
 
 
-- 2) ¿Cuantas zonas se seleccionaron?
+2) ¿Cuantas zonas se seleccionaron?
 
-Al haber sido de una seleccion mas vista uno por uno, decidimos hacerlo lo mas exacto posible, considerano igual los pares Origen-Destino que tengan pocos viajes de vehiculos de igual manera. Es por esto que utilizamos (1000) viajes. 
+Al haber sido de una seleccion mas vista uno por uno, decidimos hacerlo lo mas exacto posible, considerano igual los pares Origen-Destino que tengan pocos viajes de vehiculos de igual manera. Es por esto que utilizamos (557) viajes. (Falta la suma de los pares Origen-Destino)
 
 
 
