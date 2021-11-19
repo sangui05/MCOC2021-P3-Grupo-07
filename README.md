@@ -75,8 +75,9 @@ Matias Etcheverry Fuentealba
 # ENTREGA 5
 
 Grafo :
+    
+    ![image](https://user-images.githubusercontent.com/88542346/142703320-262aebf7-f969-429a-851a-de80cf51405b.png)
 
-![image](https://user-images.githubusercontent.com/88542346/142702631-7aeb1e4c-9abb-4582-b147-f0620ad40eaa.png)
 
 
 
