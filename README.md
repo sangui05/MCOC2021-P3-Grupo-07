@@ -62,3 +62,24 @@ Matias Etcheverry Fuentealba
   
   Respecto al punto anterior se encontraron discrepancias en el gráfico con la solución expresada, posiblementes a acotamientos del gráfico o falla en la comprobación de iteraciones
 
+
+
+
+
+-
+-
+-
+-
+
+
+# ENTREGA 5
+
+
+¿Como selecciono las zonas a incluir?
+
+
+Los zonas las seleccionamos segun los siguientes criterios:
+
+-  Primero tratamos de hacer una función en Python la cual recorriera la lista de origenes y destinos y poder ir seleccionando cuales nos servian con respecto a algunos criterios, pero no lo pudimos completar de manera correcta ya que nos tiraba error. Es por esto que decidimos hacerlo de una forma segura pero muy larga, ir viendo uno por uno en la pagina http://datos.cedeus.cl/layers/geonode:eod2012_utm19s, que las zonas (Origen y Destino) tengan setido que pasen por AVO (Americo Vespucio Oriente). Por lo que fue un arduo trabajo viendo uno por uno los casi 3 mil datos de origen destino, para ir eliminando las zonas las cuales no tenian sentido que pasen por AVO. 
+
+- 
