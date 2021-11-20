@@ -92,14 +92,14 @@ Por lo mismo, obtuvimos muchos pares Origen-Destino ya que no filtramos de a cue
 
 2) ¿Cuantas zonas se seleccionaron?
 
-Al haber sido de una seleccion mas vista uno por uno, decidimos hacerlo lo mas exacto posible, considerano igual los pares Origen-Destino que tengan pocos viajes de vehiculos de igual manera. Es por esto que utilizamos (557) viajes. (Falta la suma de los pares Origen-Destino)
+Al haber sido de una seleccion mas vista uno por uno, decidimos hacerlo lo mas exacto posible, considerano igual los pares Origen-Destino que tengan pocos viajes de vehiculos de igual manera. Es por esto que utilizamos (1.339) viajes.
 
 
 
 
 3) ¿Cuantos viajes debera asignar?
 
-Se deberan asignar 153542 viajes. (Falta la sumatoria de Matias)
+Se deberan asignar 386.831 viajes. 
 Esto se calculo haciendo una sumatoria de los viajes que seleccionamos. 
 
 
@@ -109,6 +109,10 @@ Esto se calculo haciendo una sumatoria de los viajes que seleccionamos.
 Estos pares son los que tienen mayor flujo, nosotros tenemos mdemaciados, algunos de ejemplo son: [[373,11], [359,16], etc
 
 Generalmente son las con mayor flujo y que tiene mucho sentido que pase por AVO, ya que a veces puede haber una zona que esten lejos de AVO y que tenga un flujo muy grande de viajes, por lo que solo un porcentaje pase por AVO. Esto fue considerado por nosotros. 
+
+Tambien puede influir la direccion de los pares OD, ya que si la linea recta entre un par OD es muy similar a AVO, estos viajes van a utilizar por una mayor distancia esta ruta. 
+
+Tampoco debemos dejar de lado el hecho de que muchas incorporaciones y salidas a la Vía pueden ser un factor importante para que se cree un atasco.Es por esta razon que no podemos dejar de lado las rutas que no sean tan paralelas a AVO y por ende utilizarán la via por una pequeña distancia. No se debe dejar de lado estos pares OD que no traen un flujo grande, debido a que la suma de ellos puede hacer una diferencia importante en el costo.
 
 
 
